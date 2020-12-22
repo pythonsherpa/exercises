@@ -7,8 +7,7 @@ pip install pylint
 To use pylint, run the following in the terminal/commandline:
 pylint pylint_exercise.py
 """
-
-import statistics
+import statistics, os
 
 
 def main():
@@ -18,8 +17,13 @@ def main():
 
 def greet(name):
     local_variable = 42
-    print(f"Hello {name}, how are you?");
+    print(f"Hello %s, how are you?" % name);
     return
+
+def faulty():
+    percentage = number / 100
+    pass
+    return percentage
 
 
 if __name__ == "__main__":
