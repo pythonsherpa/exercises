@@ -23,7 +23,7 @@ def greet(name):
 def make_percentage():
     percentage = number / 100
     pass
-    return percentage
+    return f"{percentage}%"
 
 
 if __name__ == "__main__":
