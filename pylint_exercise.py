@@ -20,7 +20,7 @@ def greet(name):
     print(f"Hello %s, how are you?" % name);
     return
 
-def faulty():
+def make_percentage():
     percentage = number / 100
     pass
     return percentage
