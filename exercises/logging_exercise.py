@@ -1,11 +1,12 @@
 """
 Exercise
 Add logging to the program below. The program
-uses the new `secrets` module to create a token.
+uses the new `secrets` module to create a token:
 https://docs.python.org/3/library/secrets.html
 
 Implement info messages for every function and
 a debug message with the value of the token.
+For more information about logging:
 https://docs.python.org/3/library/logging.html
 """
 
