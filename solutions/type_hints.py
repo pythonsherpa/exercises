@@ -11,7 +11,7 @@ def main() -> None:
 
 def ask_user_age() -> int:
     """Return user input"""
-    age = input("What is your age in years? ")
+    age = int(input("What is your age in years? "))
     return age
 
 
