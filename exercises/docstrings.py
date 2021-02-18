@@ -1,5 +1,6 @@
 """
-Add or change 'docstrings' to follow the Python conventions.
+Add 'docstrings' to the following functions and classes.
+Make sure to follow the Python conventions.
 """
 
 
