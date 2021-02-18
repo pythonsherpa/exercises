@@ -1,25 +1,33 @@
 """
-Logging exercise
+Exercise
+Add logging to the program below. The program
+uses the new `secrets` module to create a token.
+https://docs.python.org/3/library/secrets.html
+
+Implement info messages for every function and
+a debug message with the value of the token.
+https://docs.python.org/3/library/logging.html
 """
+
+import secrets
 
 
 def main():
-    age = ask_user_age()
-    age_in_months = calculate_age_in_months(age)
-    print_age(age_in_months)
+    """Run program to email a secret token"""
+    token = generate_token()
+    email_token(token)
 
 
-def ask_user_age():
-    age = int(input("What is your age in years? "))
-    return age
+def generate_token():
+    """Return a token for password reset"""
+    token = secrets.token_hex()
+    return token
 
 
-def calculate_age_in_months(years):
-    return years * 12
-
-
-def print_age(age_in_months):
-    print(f"You are {age_in_months} months old.")
+def email_token(token):
+    """Email the token"""
+    body = f"The token to reset your password: {token}"
+    pass
 
 
 if __name__ == "__main__":
