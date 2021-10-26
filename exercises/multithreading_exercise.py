@@ -50,7 +50,7 @@ def write_many(files):
 
 if __name__ == "__main__":
     path = Path("temp_exercise_multiprocessing")
-    path.mkdir(exist_ok=True)
+    path.mkdir(exist_ok=False)
     all_files = [path.joinpath(f"File {i}.txt")
                  for i in range(100)]
     write_many(all_files)
