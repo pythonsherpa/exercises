@@ -8,17 +8,18 @@ pylint pylint_exercise.py
 
 
 def main():
-    """Run the program"""
+    """Run the program."""
     name = input("What is your name? ")
     greet(name)
 
 
 def greet(name):
-    """Return a full sentence greeting"""
+    """Return a full sentence greeting."""
     return f"Hello {name}, how are you?"
 
 
 def make_percentage(number):
+    """Return the number as a percentage."""
     percentage = number / 100
     return f"{percentage}%"
 
