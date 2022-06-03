@@ -3,7 +3,7 @@ Type hinting exercise with classes
 """
 
 
-def main():
+def main() -> None:
     """Simple program for illustrative purposes"""
     name = ask_name()
     my_account = BankAccount(name)
