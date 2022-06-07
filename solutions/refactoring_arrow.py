@@ -25,7 +25,7 @@ def invoice(movie, tickets):
 
 
 def price_for(movie):
-    if available_movies[movie]["genre"] == "Action":
+    if available_movies[movie]["quality"] == "IMAX":
         price = 12
     else:
         price = 10
