@@ -1,6 +1,7 @@
 """
 Refactor the code below. Try go get the functions' bodies
 as close to the left side as possible (only one indentation deep).
+This exercise is based on the book "Refactoring" of Martin Fowler.
 """
 import pytest
 
