@@ -1,18 +1,18 @@
 """
-This is an exercise to get familiar with Pylint. 
+This is an exercise to get familiar with ruff.
 
-You can install pylint with:
-pip install pylint
+You can install ruff with:
+pip install ruff
 
-To use pylint, run the following in the terminal/commandline:
-pylint pylint_exercise.py
+To use ruff, run the following in the terminal/commandline:
+ruff check linting_exercise.py
 """
 import statistics, os
 
 
 def main():
-   name = input("What is your name? ")
-   greet(name)
+    name = input("What is your name? ")
+    greet(name)
 
 
 def greet(name):

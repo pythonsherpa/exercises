@@ -1,9 +1,11 @@
 """
-This is an exercise to get familiar with Pylint.
-You can install pylint with:
-pip install pylint
-To use pylint, run the following in the terminal/commandline:
-pylint pylint_exercise.py
+This is an exercise to get familiar with ruff.
+
+You can install ruff with:
+pip install ruff
+
+To use ruff, run the following in the terminal/commandline:
+ruff check linting_exercise.py
 """
 
 
